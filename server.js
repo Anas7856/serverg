@@ -328,7 +328,7 @@ app.listen(PORT, () => {
   logger.info(
     `CORS enabled for: ${
       process.env.NODE_ENV === "production"
-        ? "production domains"
+        ? "https://vallhallalogisticllc.com"
         : "localhost:3000"
     }`
   );
