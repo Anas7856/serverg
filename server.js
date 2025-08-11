@@ -35,10 +35,7 @@ app.use(
   cors({
     origin:
       process.env.NODE_ENV === "production"
-        ? [
-            "https://vallhallalogisticllc.com",
-            "https://vallhallalogisticllc.com",
-          ]
+        ? ["https://vallhallalogisticllc.com"]
         : ["http://localhost:5173", "http://127.0.0.1:3000"],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
